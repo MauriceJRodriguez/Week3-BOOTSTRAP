@@ -1,0 +1,73 @@
+/**/
+body {
+    background: url("../images/CloudBackG.jpg") no-repeat fixed;
+    color: black;
+    font-family: "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+
+#nav{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 20px;
+    margin: 0px 25%;
+
+}
+
+#navbar-primary a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Akronim';
+    font-size: 30px;
+}
+
+input{
+    padding-top: 0px;
+    margin-top: 10px;
+    font-family: 'Akronim';
+}
+
+header{
+    background-image: url("../images/MovieHeader.png");
+    height: 100px;
+    top: 100px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border: 10px;
+}
+h1{
+    text-align: center;
+    font-family: 'Bangers';
+    color: white;
+    margin: 0px;
+    padding: 35px;
+    
+}
+
+h2{
+    font-family: 'Akronim';
+}
+
+
+footer {
+    border: 5px double white;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+   font-family: 'Akronim';
+   font-size: 200%;
+}
+
+.other-lists a{
+    text-decoration: none;
+    color: black;
+}
+
+.showcase a{
+    text-decoration:none;
+    color: black;
+}
+

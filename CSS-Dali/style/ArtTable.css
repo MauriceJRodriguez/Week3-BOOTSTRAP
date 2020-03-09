@@ -1,0 +1,39 @@
+body {
+    background: url("../images/The\ Anthropomorphic\ Cabinet.jpg") top/ cover no-repeat fixed;
+    color: white;
+    margin: 0px;  
+}
+
+.table-striped {
+    background-color: #e6e4d8;
+  }
+
+  .table-striped>tbody>tr:nth-child(odd)>td,
+  .table-striped>thead>tr:nth-child(odd)>th {
+    background-color: rgba(48, 38, 126, 0.5);
+  }
+  
+  .thumbnails img{
+      width: 150px;
+      height: 100px;
+  }
+
+  caption {
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Nothing You Could Do';
+    font: 100%;
+    font-size: 70px;
+    text-decoration: none;
+}
+
+.table-hover>tbody>tr:hover{
+  color: black;
+}
+
+th{
+  font-family: 'Nothing You Could Do';
+  font-size: 30px;
+}

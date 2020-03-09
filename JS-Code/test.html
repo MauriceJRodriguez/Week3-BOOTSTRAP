@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="scripts/test.js"></script>
+    <title>Document</title>
+    <style>
+        .classA{
+            border-radius: 20%
+        }
+        .classB{
+            box-shadow: grey 5px 5px 8px;
+        }
+    </style>
+</head>
+<body onload='getStarted()' onclick='addShadow()'>
+<h1 id='first'></h1>    
+</body>
+<script>
+let h1 = document.getElementById ('first')
+h1.innerText = 'Maurice Turtle'
+h1.style.backgroundColor = 'yellow'
+h1.style.color = 'grey' 
+h1.className= 'classA'
+let body = document.body;
+body.style.backgroundColor = 'black'
+
+function addShadow(){
+    h1.className +=' classB'
+}
+</script>
+</html>

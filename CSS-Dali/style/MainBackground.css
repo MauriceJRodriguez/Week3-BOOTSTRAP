@@ -1,0 +1,89 @@
+body {
+    background: url("../images/The\ Anthropomorphic\ Cabinet.jpg") top/ cover no-repeat fixed;
+    color: white;
+    margin: 0px;  
+}
+
+header {
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+#nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0px 20%;
+    background-color: black;
+}
+
+.navbar-nav li > a:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+#nav div {
+    justify-self: center;
+    
+}
+
+.navbar-nav a{
+    color:white;
+}
+
+h1 {
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Trade Winds';
+    font: 100%;
+    font-size: 70px;
+    text-decoration: none;
+}
+
+.banner {
+    width: 70%;
+    height: 5%;
+}
+
+.quote {
+    width: 45%;
+}
+
+section {
+    margin-top: 150px;
+}
+
+.center-in-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure {
+    border: 5px double #62433f;
+    background-color: grey;
+    padding: 0px;
+    display: table;
+}
+
+footer {
+    background-color: black;
+    border: 5px double white;
+    padding: 10px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px; 
+}
+
+.showcase img{
+    width: 100%;
+}
+
+
+ 

@@ -1,0 +1,35 @@
+
+.class1{
+    background-color: blue;
+}
+
+.class2{
+    background-color: lightblue;
+}
+
+.class3{
+    background-color: lightgrey;
+}
+
+table{
+    border-style: dashed;
+    border-collapse: collapse;
+    box-shadow: mediumslateblue 10px 10px;
+}
+
+td{
+    border-style: dashed;
+}
+
+caption{
+    text-align: center;
+}
+
+body{
+    background-color: limegreen;
+    background-image: url(../Images/CSS3_and_HTML5_logos_and.svg.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 160px 100px;
+    
+}
