@@ -90,3 +90,21 @@ footer {
     margin: 10% auto;
 }
  
+.checkout-form legend{
+    color: white;
+    text-align: center;
+}
+
+.checkout-form button{
+    border-color: white;
+    background-color: #62433f;
+}
+
+.checkout-form button:hover{
+    background-color: #98644e;
+    border-color:#98644e;
+}
+
+.no-padding{
+    padding: 0;
+}
